@@ -1,3 +1,5 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable no-use-before-define */
 import styles from './Main.module.css'
 import sprite from "../../images/sprite.svg";
 
@@ -16,7 +18,7 @@ const Main = ({ rates }) => {
             handleAmountFromChange(1);
             handleAmountToChange(1)
           } 
-      }, [rates])
+      }, [rates, handleAmountToChange, handleAmountFromChange])
 
     const handleAmountFromChange = (amountFrom) => {
         const value1 = rates.filter(({ cc }) => cc === currencyTo);
