@@ -1,0 +1,31 @@
+.group {
+    display: flex;
+    width: 180px;
+    margin: 0 auto 20px;
+    display: grid;
+    grid-template-columns: 100px 80px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+}
+
+input {
+    background: none;
+    border: 0;
+    outline: none;
+    color: #762828;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+select {
+    background: none;
+    border: 0;
+    outline: none;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+select option {
+    color: #111;
+}
